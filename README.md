@@ -19,3 +19,8 @@
 	
 	OpenGL
 	- Platform that allows for cross platform windows, linux, mac 
+	
+	
+
+_________________________________________________________________________________
+Using .Net 6, monogame 3.8.1, monogame extended 3.8
