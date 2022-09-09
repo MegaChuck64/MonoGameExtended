@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Engine", "MonoGameExtended\Engine.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCore", "GameCode\GameCore.csproj", "{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform_OpenGL", "Platform_OpenGL\Platform_OpenGL.csproj", "{004DD712-BB0E-4996-BCE0-EC45D9326887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|x64.Build.0 = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|ARM.Build.0 = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|x64.ActiveCfg = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|x64.Build.0 = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B45E328-6F5B-44E5-A44E-8CC78F86BD40}.Release|x86.Build.0 = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|ARM.Build.0 = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|x64.Build.0 = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Debug|x86.Build.0 = Debug|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|ARM.ActiveCfg = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|ARM.Build.0 = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|x64.ActiveCfg = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|x64.Build.0 = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|x86.ActiveCfg = Release|Any CPU
+		{004DD712-BB0E-4996-BCE0-EC45D9326887}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E52842CE-3571-427B-8D21-CFE4CE74843A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MonoGameExtended\MonoGameExtended.projitems*{004dd712-bb0e-4996-bce0-ec45d9326887}*SharedItemsImports = 5
+		MonoGameExtended\MonoGameExtended.projitems*{5b45e328-6f5b-44e5-a44e-8cc78f86bd40}*SharedItemsImports = 5
+		MonoGameExtended\MonoGameExtended.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
